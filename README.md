@@ -1,7 +1,7 @@
 # Kullanıcı Kayıt Uygulaması
 
 Bu basit web uygulaması, kullanıcıların kayıt olmasını sağlayan bir Express.js uygulamasını içerir. Kullanıcılar, HTTP istemcisi (örneğin, Postman) kullanarak kullanıcı adı ve şifrelerini girerek kayıt olabilirler.
-
+[Duck Duck Go](https://duckduckgo.com).
 ## Kullanılan Teknolojiler
 
 - **Express.js:** Web uygulaması ve sunucu tarafı işlemleri için kullanılan hafif bir Node.js framework'ü.
