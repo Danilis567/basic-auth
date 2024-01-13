@@ -23,7 +23,7 @@ Bu basit web uygulaması, kullanıcıların kayıt olmasını sağlayan bir Expr
 4. HTTP istemcisini kullanarak `http://localhost:4000/users/register` endpoint'ine POST isteği göndererek uygulamayı kullanmaya başlayın.
 
 ## Ayrıntılar
-[Ek detaylar](https://github.com/Danilis567/basic-auth/blob/main/app/doc.md).
+- [Kodlar](https://github.com/Danilis567/basic-auth/blob/main/app/doc.md).
 - Uygulama, MongoDB'de "users" adında bir koleksiyon kullanarak kullanıcıları saklar.
 - Kullanıcılar, kullanıcı adı ve şifre ile temsil edilir.
 - MongoDB'deki kullanıcı koleksiyonunda "username" alanı benzersiz olmalıdır, bu nedenle aynı kullanıcı adıyla kayıt yapılmaya çalışıldığında benzersiz anahtar hatası alınabilir.
