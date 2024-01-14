@@ -15,7 +15,7 @@ Bu dosya, kullanıcı işlemlerini yöneten Express.js kontrolcülerini içerir.
   - Hata durumu (500 Internal Server Error): Sunucu hatası durumunda.
  
 Kod:  
-```
+```jsx
 async function registerUser(req, res) {
     try {
       const { username, password } = req.body;
@@ -45,7 +45,7 @@ async function registerUser(req, res) {
   - Hata durumu (500 Internal Server Error): Sunucu hatası durumunda.
 
   kod:
- ```
+ ```jsx
   async function loginUser(req, res) {
   try {
     const { username, password } = req.body;
@@ -80,7 +80,7 @@ async function registerUser(req, res) {
   - Tüm kullanıcılar listesi.
  
 kod:
-```
+```jsx
 async function getUsers(req, res) {
   try {
     const users = await User.find({});
@@ -104,7 +104,7 @@ async function getUsers(req, res) {
   - Kullanıcı bulunamadı (404 Not Found).
  
 kod:
-```
+```jsx
 async function getUserByUsername(req, res) {
   try {
     const username = req.params.username;
